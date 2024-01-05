@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.web: ERROR
+    vn.com.ntqsolution: DEBUG
+  file:
+    name: log/plugin-app.log
